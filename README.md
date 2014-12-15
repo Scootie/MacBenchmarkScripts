@@ -5,6 +5,14 @@ I'm cleaning out my old hard drive, and I found a bunch of old AppleScripts snip
 
 Frankly, a lot of what I wrote as far as proprietary benchmarks was in AppleScript because it was easier to maintain than doing it in C, but the linearized nature of the run made the benchmark somewhat limited in certain uses. Executing and manipulating multiple programs concurrently isn't really possible if you limit yourself to AppleScripts alone. Many of my peers continue to utilize either something simple in AppleScript or a combination of AppleScript and another Object-oriented language to harness more flexibility for their benchmarking needs.
 
+##List of Snippnits
+
+Hibernate_Timer
+
+![hibernatetimer](https://github.com/Scootie/MacBenchmarkScripts/blob/master/documentation/hibernate_timer.png)
+
+A snippet of code that prompts user for timer interval and hibernates system for that time. The system automatically wakes up after.
+
 ##License
 
 Copyright Caleb Ku 2014. Distributed under the MIT License. (See accompanying file LICENSE or copy at http://opensource.org/licenses/MIT)
